@@ -5,47 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<nav class="card">
-    <nav class="card-header">
-        <h5>Mary Papamichalis</h5>
-        <ul class="nav justify-content-end">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1">Mary Papamichalis</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item"></li>
-            <a class="nav-link active" href="index.html">About</a>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav>
+    </div>
+</nav>
 
-    <body>
-        <h2>Contact</h2>
+
+<body>
+    <div class="container">
+        <h1>Contact</h1>
         <hr>
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                <label for="exampleInputName1"><strong>Name</strong></label>
+                <input type="Name" class="form-control" id="exampleInputName1" placeholder="name">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                <label for="exampleInputEmail1"><strong>Email</strong></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
-                    rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <label for="exampleFormControlTextarea1"><strong>Message</strong></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="3"></textarea>
+             </div>
+             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    </body>
+</body>
 
 </html>

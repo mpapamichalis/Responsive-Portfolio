@@ -1,8 +1,49 @@
+body{
+  background-color:silver;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+}
 img {
     float: left;
-    object-fit: contain;
+    padding: auto;
+    align-self: start;
   }
+#me{
+  max-width: 100%;
+}
 
-  p {
-      margin-top: 55px;
-  }
+p{
+  float:right;
+  display: flex;
+}
+form{
+  width: 75%px;
+  padding-bottom: 15px;
+
+}
+.form-group{
+  width: 70%;
+  padding-left: 25px;
+}
+.container{
+  width: 75%;
+  margin: 60px;
+  background-color:white;
+  padding: 15px;
+  padding-top: 15px;
+}
+.row{
+  padding: 30px;
+}
+h1 {
+  color: darkslateblue;
+  text-shadow: 2px 2px paleturquoise;
+  padding-left: 20px; 
+  padding-top: 10px;
+}
+
