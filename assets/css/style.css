@@ -16,10 +16,9 @@ img {
 #me{
   max-width: 100%;
 }
-
 p{
   float:right;
-  display: flex;
+  display:flex;
 }
 form{
   width: 75%px;
